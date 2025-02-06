@@ -1,0 +1,34 @@
+.btn{
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  border-radius: .5rem;
+  font: var(--fw-md) var(--fs-base) / 1.5rem var(--ff-sans); 
+
+  cursor: pointer;
+  background-color: var(--textcolor-primary);
+  color: var(--surface-color);
+}
+
+.btn:hover{
+  background: linear-gradient( 90deg, #F7B733 ,#FC4A1A);
+  color: var(--surface-color);
+} 
+
+.btn-sm{
+  padding: 0.5rem 1rem;
+  font-size: var(--fs-sm);
+  
+}
+
+.btn-md{
+  padding: .75rem 1.5rem;
+  font-size: var(--fs-base);
+}
+
+.btn-lg{
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+}
