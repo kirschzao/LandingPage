@@ -15,6 +15,8 @@
 .btn:hover{
   background: linear-gradient( 90deg, #F7B733 ,#FC4A1A);
   color: var(--surface-color);
+  -webkit-background-clip: initial;
+  background-clip: initial;
 } 
 
 .btn-sm{
@@ -53,4 +55,18 @@
     position: relative;
     z-index: 1;
   }
+}
+
+@media (width> 80em){
+  
+  .btn-sm{
+    padding: .75rem 1.5rem;
+    font-size: var(--fs-base);
+  }
+  
+  .btn-md{
+    padding: 1rem 2rem;
+    font-size: 1.125rem;
+  }
+  
 }
