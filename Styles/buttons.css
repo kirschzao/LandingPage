@@ -42,7 +42,7 @@
     content: "";
     position: absolute;
     border-radius: inherit;
-    inset: 1.5px;
+    inset: 1px;
     background-color: var(--bg-color);
   }
 
@@ -51,7 +51,7 @@
     background: linear-gradient( 90deg, #F7B733 ,#FC4A1A);
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent;
+    color: white;
     position: relative;
     z-index: 1;
   }
