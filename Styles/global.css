@@ -45,7 +45,9 @@ html{
   font-size: var(--fs-base);
   line-height: 1.6;
   color: var(--textcolor-primary);
-  overflow-y: hidden;
+  overflow-x: hidden;
+
+  scroll-behavior: smooth;
 }
 
 body{
